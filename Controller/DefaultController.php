@@ -3,7 +3,7 @@
 namespace Pmiguelima\CorreiosBundle\Controller;
 
 use Pmiguelima\CorreiosBundle\Entity\CorreiosFreteParameter;
-use Pmiguelima\CorreiosBundle\Utils\CorreiosRequester;
+use Pmiguelima\CorreiosBundle\Util\CorreiosRequester;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
