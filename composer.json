@@ -1,0 +1,16 @@
+{
+  "name": "pmiguelima/correiosbundle",
+  "license": "MIT",
+  "type": "library",
+  "description": "Modulos de consulta aos dados dos correios",
+  "autoload": {
+    "psr-0": {
+      "Pmiguelima\\CorreiosBundle": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": "2.6.*"
+  },
+  "minimum-stability": "stable"
+}

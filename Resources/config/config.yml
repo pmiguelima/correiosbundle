@@ -1,0 +1,28 @@
+parameters:
+    correios:
+        codigo_empresa: "10400842"
+        senha: "q2u43"
+
+        frete:
+            peso_minimo: 16
+            comprimento_minimo: 16
+            altura_minimo: 16
+            largura_minimo: 16
+            diametro_minimo: 16
+
+            mao_propria: "N"
+            valor_declarado: 0
+            aviso_recebimento: "N"
+
+            servicos:
+                - { nome: "SEDEX", codigo: 04014 }
+                - { nome: "PAC", codigo: 04510 }
+                - { nome: "SEDEX 12", codigo: 40169 }
+                - { nome: "SEDEX 10", codigo: 40215 }
+                - { nome: "SEDEX Hoje", codigo: 40290 }
+
+            formatos:
+                - { nome: "caixa/pacote", codigo: 1 }
+                - { nome: "rolo/prisma", codigo: 2 }
+                - { nome: "Envelope", codigo: 3 }
+
