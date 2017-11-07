@@ -5,11 +5,19 @@
   "description": "Modulos de consulta aos dados dos correios",
   "autoload": {
     "psr-0": {
-      "Pmiguelima\\CorreiosBundle": "src/"
+      "Pmiguelima\\CorreiosBundle\\": "./"
+    },
+    "psr-4":{
+      "Pmiguelima\\CorreiosBundle\\": "vendor/pmiguelima/correiosbundle/"
     }
   },
   "require": {
     "php": ">=5.3.3"
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
 }
